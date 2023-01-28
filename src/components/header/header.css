@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: inherit;
+    height: 50px;
+    background-color: rgba(25, 26, 28, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    padding-right: 130px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header__store-title {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header__cart-btn-wrapper {
+    justify-content: flex-end;
+}
