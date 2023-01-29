@@ -3,6 +3,7 @@ import './cart-menu.css'
 import { calcTotalPrice } from '../utils';
 import ButtonBuy from '../button-buy/button-buy';
 import CartItem from '../cart-item/cart-item';
+import ButtonDelete from '../button-delete/button-delete';
 
 export default function CartMenu(props) {
 
@@ -17,7 +18,9 @@ export default function CartMenu(props) {
                                 price={game.price}
                                 title={game.title}
                                 id={game.id}
+                                game={game}
                             />
+                            
                         ))
                         : 'cart is empty'
                 }
@@ -28,6 +31,7 @@ export default function CartMenu(props) {
                         <div className='cart-menu__total-price'>
                             <span>Total: </span>
                             <span>{calcTotalPrice(props.items)} $</span>
+                            
                         </div>
                         <ButtonBuy type='primary' size='m' onClick={props.onClick}>
                             Checkout
