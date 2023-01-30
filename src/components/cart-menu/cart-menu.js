@@ -3,7 +3,6 @@ import './cart-menu.css'
 import { calcTotalPrice } from '../utils';
 import ButtonBuy from '../button-buy/button-buy';
 import CartItem from '../cart-item/cart-item';
-import ButtonDelete from '../button-delete/button-delete';
 
 export default function CartMenu(props) {
 

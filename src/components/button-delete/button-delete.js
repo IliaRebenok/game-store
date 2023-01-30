@@ -11,19 +11,16 @@ export default function ButtonDelete(props) {
         dispatch(deleteItemFromCart(props.game.id));
     }
 
-    const btnClass = classNames({
-        'btn-delete': true,
-        'btn-delete--small': props.size === 's',
-        'btn-delete--medium': props.size === 'm',
-    })
+
+
 
     return (
-        <>
+        <div>
             <AiOutlineCloseCircle 
-                        size={25}
+                        size={props.size}
                         className='btnClass'
                         onClick={handleClick}
                         />
-        </>
+        </div>
     )
 }

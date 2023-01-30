@@ -16,10 +16,12 @@ export default function OrderItem(props) {
                 </span>
             </div>
             <div className='order-item__price'>
-                <span>
+                <span className='order-item__price-number'>
                     {props.game.price} $
                 </span>
-                <ButtonDelete game={props.game}  />
+                <div className='order-item__delete-button'>
+                    <ButtonDelete game={props.game} size={25} />
+                </div>
             </div>
 
         </div>

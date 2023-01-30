@@ -10,7 +10,7 @@ const GAMES = [
         price: 76,
         video: 'https://www.youtube.com/embed/FYH9n37B7Yw',
         id: 1,
-        description: "Вас ждёт бесконечный калейдоскоп приключений Horizon! Совершайте увлекательные поездки по невероятно красивому и самобытному миру Мексики за рулём величайших автомобилей в истории. Начните своё приключение Horizon уже сегодня, добавив игру в свой список желаний!",
+        description: `Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico. The game has the largest map in the entire Forza Horizon series, being 50% larger than its predecessor, Forza Horizon 4, while also having the highest point in the Horizon series.`
     },
     {
         image: '/game-covers/battlefield_2042.jpg',
@@ -19,7 +19,7 @@ const GAMES = [
         video: 'https://www.youtube.com/embed/ASzOzrB-a9E',
         price: 70,
         id: 2,
-        description: 'Battlefield™ 2042 — это шутер от первого лица, в котором серия возвращается к легендарным масштабным сражениям. В будущем, где царит хаос, адаптируйтесь и процветайте на постоянно меняющихся полях боя благодаря своему отряду и арсеналу новейших технологий.'
+        description: `Battlefield 2042 marks the return to the iconic all-out warfare of the franchise. Adapt and overcome dynamically-changing battlegrounds with the help of your squad and a cutting-edge arsenal. With support for 128 players*, prepare for unprecedented scale on vast environments.`
     },
     {
         image: '/game-covers/life_is_strange_true_colors.jpeg',
@@ -28,7 +28,7 @@ const GAMES = [
         video: 'https://www.youtube.com/embed/b6CkzwVAr0M',
         price: 88,
         id: 3,
-        description: 'Алекс Чэнь от всех скрывает своё «проклятие» — сверхъестественную способность считывать сильные эмоции других и влиять на них. Но когда её брат погибает — якобы в результате несчастного случая, — Алекс использует её, чтобы узнать правду.'
+        description: `Deep in the mountains of Colorado, you'll find Haven Springs, a small mining town filled with beauty and mystery. As Alex, you'll discover the shocking secrets behind your brother's death in an emotional roller-coaster of an adventure, using your psychic power of Empathy to change fate and change lives.`
     },
     {
         image: '/game-covers/gta_v.jpeg',
@@ -37,7 +37,7 @@ const GAMES = [
         video: 'https://www.youtube.com/embed/QkkoHAzjnUs',
         price: 33,
         id: 4,
-        description: 'Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.'
+        description: `Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.`
     },
     {
         image: '/game-covers/rainbow_siege.jpeg',
@@ -46,7 +46,7 @@ const GAMES = [
         genres: ['Tacticks', 'Shooter'],
         price: 45,
         id: 5,
-        description: 'Tom Clancy\'s Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.'
+        description: `Tom Clancy's Rainbow Six Siege is a first-person shooter game, in which players utilize many different operators from the Rainbow team. Different operators have different nationalities, weapons, and gadgets.`
     },
     {
         image: '/game-covers/assassins_creed_valhalla.png',
@@ -55,7 +55,7 @@ const GAMES = [
         video: 'https://www.youtube.com/embed/ssrNcwxALS4',
         price: 90,
         id: 6,
-        description: 'Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed.'
+        description: `Assassin's Creed Valhalla is an action role-playing video game structured around several main story arcs and numerous optional side-missions, called "World Events". The player takes on the role of Eivor Varinsdottir (/ˈeɪvɔːr/), a Viking raider, as they lead their fellow Vikings against the Anglo-Saxon kingdoms.`
     },
 ]
 

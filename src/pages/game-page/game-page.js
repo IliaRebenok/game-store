@@ -1,10 +1,9 @@
 import React from 'react'
-import './game-page.css'
 import { useSelector } from 'react-redux';
 import GameCover from '../../components/game-cover/game-cover';
 import GameGenre from '../../components/game-genre/game-genre';
-import ButtonBuy from '../../components/button-buy/button-buy';
 import GameBuy from '../../components/game-buy/game-buy';
+import './game-page.css'
 
 export default function GamePage(props) {
     const game = useSelector(state => state.game.currentGame)
